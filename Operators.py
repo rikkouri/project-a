@@ -68,7 +68,20 @@ def assignmentOperators():
         print('target = ' + str(target) +'\n')
     print('\n')
 
+def precedenceExamples():
+    a = 2
+    b = 4
+    c = 8
+
+    print('Default order:\t' + str(a) + ' * ' + str(c) + ' + ' + str(b) + ' = ' + str(eval('a * c + b')))
+    print('Forced order:\t' + str(a) + ' * (' + str(c) + ' + ' + str(b) + ') = ' + str(eval('a * ( c + b)')))
+    print('\n')
+    print('Default order:\t' + str(c) + ' // ' + str(b) + ' - ' + str(a) + ' = ' + str(eval('c // b - a')))
+    print('Forced order:\t' + str(c) + ' // (' + str(b) + ' - ' + str(a) + ') = ' + str(eval('c // ( b - a)')))
+
+
 basicOperators()
 relationalOperators()
 logicalOperators()
 assignmentOperators()
+precedenceExamples()
