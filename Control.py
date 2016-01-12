@@ -10,9 +10,26 @@ def ifExample( smallVal, largeVal):
 
 def forExample(data):
     # For loop example
-    print('\nFor loop example')
+    print('\nFor loop examples')
+    print('\nLooping over a counter')
+    loopRange = range(1,11,1)
+    for i in loopRange:
+        print(i)
+
+    loopVar = 'Looping over characters in a string'
+    print('\n' + loopVar)
+    for char in loopVar:
+        print(char)
+
+    print('\nLooping over a list with an iterator')
     for datum in data:
         print(datum)
+
+    print('\nLooping over items in a dictionary')
+    loopDict = {'name': 'Paul','location': 'Bristol','age':'>40'}
+    for item in loopDict.keys():
+        print(item + ' = ' + loopDict[item])
+
 
 def whileExample(startVal, increment):
     # While loop example
