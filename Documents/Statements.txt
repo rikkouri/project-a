@@ -1,0 +1,18 @@
+Statements and Expressions
+
+* What is a statement?
+    - "In computer programming, a statement is the smallest standalone element of an imperative programming language that expresses some action to be carried out." - Wiki
+* Simple statements
+    - assert, return, break, continue
+* Compound statements
+    - for loop
+    - if statement
+    - switch case
+* Expression statements and Assignment statements (Python)
+    - Do we want specific Python examples here?
+* What is an expression?
+    - "An expression in a programming language is a combination of one or more explicit values, constants, variables, operators, and functions that the programming language interprets [...] and computes to produce [...] another value." (Evaluation)
+* Examples of expressions
+    - a = 1 + 1;
+    - b = a * 5;
+    - c = b / a;

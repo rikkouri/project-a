@@ -1,0 +1,12 @@
+Filetypes and File IO
+
+* What are filetypes
+    - Indicate consuming application or structure of data,
+    - Naming conventions e.g. .doc for Word, .xls for Excel, .xml, .json, .csv
+* Handling files and file system objects eg. folders
+* File open modes
+    - read, write, append etc.
+* Stream readers / writers?
+* Different functions in Python IO lib
+    -
+    -

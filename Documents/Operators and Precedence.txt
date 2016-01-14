@@ -1,0 +1,15 @@
+Operators and Precedence
+
+* What are operators
+    - Constructs that allow the manipulation of operands
+* Types of operators
+    - Arithmetic : +,-,*,/,%
+    - Relational / comparative : >,<,==,!=,>=,<=
+    - Assignment : +=, -=, *=, /=,%=,**=,//=
+    - Logical : &&,||,!
+    - Membership: in, not in
+    - Identity: is, is not
+
+* What is operator precedence
+    - Mathematical rules
+    - Operator precedence slide

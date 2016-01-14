@@ -1,0 +1,12 @@
+Stack and Heap
+* What is a stack?
+    - Memory reserved for thread execution - variables etc.
+    - Reserved in LIFO fashion
+    - Faster than heap due to allocation pattern - easier to keep track
+    - Frequent reuse means tends to be mapped to processor cache - fast
+    - Attached to thread and reclaimed when thread killed
+* What is a heap?
+    - Memory set aside for dynamic allocation
+    - No pattern to allocation and deallocation
+    - Typically multi-threading safe - performance hit
+    - Can get fragmented

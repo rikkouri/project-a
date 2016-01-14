@@ -1,0 +1,140 @@
+Variables and Datatypes
+
+Variables
+    * What are variables
+        - Boxes we use to store values
+        - Can represent numeric values, character strings or boolean values
+        - Can be manipulated and modified during program execution
+    * Why do we need them
+        - Integral in performing the calculations and decisions that comprise an application
+    * How do we use them
+        - Assignment, reference, comparison
+        - Must be declared / assigned before use
+    * Examples / Exercises
+        - Example : assign a value to and output a variable
+            a = 10;
+            print(a);
+    * Scope
+        - Local
+            * Available only in the function or method that is currently executing
+            * Disposed when function or method completes
+        - Global
+            * Available to all functions or methods in application
+            * Disposed when application closes
+        - Constants
+            * Immutable values, usually defined globally
+            * Useful for values that are reused throughout code and will not change during execution. Easy to change value in one place.
+    * Things to mention
+        - Null safety
+            * Check nullity of variable before performing operations on it to prevent exceptions
+            * Instantiation of null variables outside control blocks
+        - Pass by ref / pass by value?
+            * Pass by ref means when the value is changed, every statement / expression referencing the variable uses the new value. Copying the var, e.g. var a = b creates a new var that is a reference or pointer to the old var. Thus when the value of a changes, the b will return the same value
+            * Pass by value means value is copied into new var, making it independent of source var.
+        - Defensive programming e.g. if ( "string".equals(someVar) )?
+    * Objects as variables / OOP?
+
+Data Types
+    * What are data types
+        - Indicates what kind of value the variable represents, e.g. String = a sequence of alphanumeric characters, boolean = true/false value
+    * Examples of data types
+        - int
+            * a = 10
+        - float
+            * a = 10.536
+        - boolean
+            * a = true
+        - String
+            * a = "true"
+        - dict
+            * a = { 'name' : 'Paul', 'location' : 'Bristol' }
+
+    * Type conversion?
+        - Sometimes necessary to convert one type to another, e.g. string to integer
+        - In Python, new object returned representing converted value
+
+    * Strongly (Statically) vs Weakly (Dynamically) typed
+        - Differences
+            * Strongly typed means variables must be declared having an explicit type, e.g. String someString = new String();, and can only hold values of that type
+            * Weakly typed means variables are declared without type and can hold any value, e.g. var someVar = 'A String'; is as valid as var someVar = false; or var someVar = 42;
+        - Pros/Cons?
+            * Strong typing helps avoid runtime exceptions by preventing programmers from assigning invalid values to variables
+            * Weak typing offers the developer more flexibility when programming but at the expense of possible runtime exceptions if they're not disciplined about variable use
+    * Exercises
+        - Create a variable, and then assign to it and output, in turn, an integer value, a float value, a boolean value and then a string value.
+            # Data types Exercise
+            # Integer
+            a = 10
+            print(a)
+            # Float
+            a = 10.537
+            print(a)
+            # Boolean
+            a = "False"
+            print(a)
+            # Interesting discussion point here to test for 'False' and have it output 'True'
+            print(a == 'False')
+            # String
+            a = "string value"
+            print(a)
+            # Dict
+            a = {'name': 'Paul', 'location': 'Bristol'}
+            print(a)
+            print(a['location'])
+            print(a['name'])
+        - Type conversion example:
+            # Type conversion example
+            print('\nType conversion example')
+            varToConvert = '10'
+            convertedVar = int(varToConvert)
+            print('varToConvert')
+            print(varToConvert)
+            print('convertedVar')
+            print(convertedVar)
+            try:
+                # Try to concatenate the str and the int. Exception will be caught.
+                print('varToConvert + convertedVar')
+                print(varToConvert + convertedVar)
+            except TypeError as error:
+                print('An error occurred :\n' + str(error))
+            finally:
+                print('\n')
+                print('Converting int to str and concatenating:\n')
+                nextAttempt = 'varToConvert + str(convertedVar)'
+                print(nextAttempt)
+                print(eval(nextAttempt))
+            # Trying to add str value to int. Exception will be caught.
+            print('convertedVar + varToConvert')
+            try:
+                print(convertedVar + varToConvert)
+            except TypeError as error:
+                print('An error occurred :\n' + str(error))
+            finally:
+                print('\n')
+                print('Converting str to int and adding:\n')
+                nextAttempt = 'int(varToConvert) + convertedVar'
+                print(nextAttempt)
+                print(eval(nextAttempt))
+
+    # Null safety example:
+        # Null checking
+        # Null unsafe
+        b = 'Some value'
+        print(b)
+        b = b + c
+        print(b)
+
+        # Null safe
+        b = 'Some value'
+        print(b)
+        try:
+            b = b + c
+        except BaseException as error:
+            print('An error occurred. The error message received was:\n\n' + str(error))
+        finally:
+            c = 'Some other value'
+            b = b + ' ' + c
+            print(b)
+
+    * Further Discussion / Research
+        Object methods - e.g. str.capitalize, str.find, int.bit_length, float.is_integer

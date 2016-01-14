@@ -1,0 +1,7 @@
+Functions / Methods
+
+*   What is a function?
+*   Why do we use functions?
+*   What does a function look like?
+*   Passing parameters into a function
+*   Returning a value from a function

@@ -1,0 +1,19 @@
+Debugging
+
+* What is debugging?
+    - Identifying and correcting errors in program
+    - Types of bug - cosmetic, logical or semantic, runtime
+        * Cosmetic - problem with appearance of software
+        * Logical / semantic - program works but produces unexpected results
+        * Runtime - errors that cause program to crash even though it compiles / appears ok
+* Debugging strategies
+    - Replication, replication, replication
+        * Most important factor in fixing a bug is being able to replicate it
+    - Console logging
+        * Output variables to console to inpect during execution
+    - Stack trace
+        * When provided by an exception can point to the precise line of code that is causing the problem
+    - Debugger instrumentation
+        * Breakpoints
+        * Stepping through
+        * Variable inspection

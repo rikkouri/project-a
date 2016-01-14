@@ -1,0 +1,6 @@
+Scratch
+
+WPT calculate (tax?) without any flow control
+Module of Pep8 & style guide
+Provide buggy code to debug
+Approved / blacklisted libs?

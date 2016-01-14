@@ -1,0 +1,11 @@
+Multithreading
+
+* What is a thread?
+* What is multithreading?
+* Why would we want to write a multithreaded application?
+* Multithreading concerns and strategies
+    - Thread interactivity
+    - Locking and synchronisation
+    - Sleeping, waiting, yielding
+    - Thread pooling
+    - Resources

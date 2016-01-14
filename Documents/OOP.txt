@@ -1,0 +1,21 @@
+Object Oriented Programming
+
+*   What is OOP?
+    - OOP attempts to treat program concepts as data models and relationships. So, for example, if we were writing a Phonebook app, we would try to identify the models or objects that comprise it. They might be:
+        * Phonebook object, which can contain n Persons. This might have a function called "getMembers" which returns a collection of all the persons in the Phonebook. Other functions might include "addToPhonebook" and "deleteFromPhonebook"
+        * Person object, which is a child of the Phonebook in a one-to-many relationship. The Person object might have properties such as:
+            - Name
+            - Address
+            - Phone number
+            - Picture
+*   Why do we use OOP?
+*   Examples of Objects and properties
+*   Inheritance
+    - What is inheritance
+    - Example of inheritance
+*   Encapsulation
+    - What is encapsulation
+    - Example of encapsulation
+*   Polymorphism
+    - What is polymorphism
+    - Example of polymorphism

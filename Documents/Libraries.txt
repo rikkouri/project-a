@@ -1,0 +1,18 @@
+Libraries
+
+* What are libraries?
+* Why do we use libs?
+    - Avoid wheel reinvention
+    - API wrappers
+    - Modularisation
+* Where to get them
+    - Maven Repo
+    - Github
+    - NPM
+    - Others
+* Concerns
+    - Black boxing
+    - Security
+    - Support
+
+* Delegates to write their own simple lib?

@@ -1,0 +1,21 @@
+Comments & Self Documenting Code
+
+*   What is a comment?
+    - A comment is one or more lines in a program that are marked with special characters that indicate they are to be ignored by the compiler or interpreter.
+*   What does a comment look like?
+    - Single line comment, e.g. #This is a comment
+    - Multiline comment, e.g.
+        '''
+        This is a multiline comment
+        '''
+*   Why do we comment our code?
+    - Ease of maintenance for self and other developers
+    - Change tracking
+    - Code Warts
+*   What kind of comments might we make?
+    - Explanatory notes for complex logic to aid refactoring and debugging
+    - Descriptive notes for functions and classes to explicate purpose
+*   Self Documenting Code
+    - What is self documenting code?
+        * Naming variables and functions in ways that are descriptive of their purpose, e.g. helloWordFunction or userInputVariable
+        

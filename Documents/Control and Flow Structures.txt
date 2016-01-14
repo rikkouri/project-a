@@ -1,0 +1,11 @@
+Control / Flow Structures
+
+* What are control structures
+    - Decisions made during operation
+* Why do we use them
+    - Decision making is the nuts and bolts of programming
+* Types of control structure
+    - IF..THEN..ELSE
+    - FOR..EACH
+    - FOR..DO
+    - WHILE..DO

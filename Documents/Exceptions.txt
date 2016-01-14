@@ -1,0 +1,10 @@
+Exceptions
+
+* What are exceptions?
+    - " an event that occurs during the execution of a program that disrupts the normal flow of instructions."
+* Checked vs runtime
+    - Checked : exception that must be handled or thrown
+    - Unchecked / runtime : no mandatory try or handling
+* Why do we handle exceptions?
+* Exception handling
+    - try..except blocks (Python)
