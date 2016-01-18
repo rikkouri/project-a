@@ -102,6 +102,11 @@ def ops_exercise():
     print('Sum of odds = ' + str(sum_odd))
     print('Sum of evens = ' + str(sum_even))
 
+# An exercise to build a calculator
+def calc_exercise():
+    pass
+
+
 ops_exercise()
 
 
