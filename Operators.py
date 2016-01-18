@@ -85,3 +85,23 @@ relationalOperators()
 logicalOperators()
 assignmentOperators()
 precedenceExamples()
+
+# WAPT sum odd and even numbers over a range
+def ops_exercise():
+    range_lower = input('Enter a lower bound\n')
+    range_upper = input('Enter an upper bound\n')
+    sum_range = range(range_lower, range_upper + 1)
+    sum_even = 0
+    sum_odd = 0
+    for i in sum_range:
+        if i % 2 == 0:
+            sum_even += i
+        else:
+            sum_odd += i
+    print('Examining numbers from ' + str(range_lower) + ' to ' + str(range_upper))
+    print('Sum of odds = ' + str(sum_odd))
+    print('Sum of evens = ' + str(sum_even))
+
+ops_exercise()
+
+

@@ -1,10 +1,10 @@
-#Control / Fl;ow examples and exercises
+# Control / Flow examples and exercises
 
-def ifExample( smallVal, largeVal):
+def ifExample(smallVal, largeVal):
     # If condition example
     print('\nIf condition example')
-    if ( smallVal < largeVal):
-        print( "Small < Large")
+    if smallVal < largeVal:
+        print("Small < Large")
     else:
         print("Small > Large")
 
@@ -12,7 +12,7 @@ def forExample(data):
     # For loop example
     print('\nFor loop examples')
     print('\nLooping over a counter')
-    loopRange = range(1,11,1)
+    loopRange = range(1, 11, 1)
     for i in loopRange:
         print(i)
 
@@ -26,7 +26,7 @@ def forExample(data):
         print(datum)
 
     print('\nLooping over items in a dictionary')
-    loopDict = {'name': 'Paul','location': 'Bristol','age':'>40'}
+    loopDict = {'name': 'Paul', 'location': 'Bristol', 'age': '>40'}
     for item in loopDict.keys():
         print(item + ' = ' + loopDict[item])
 
@@ -57,11 +57,13 @@ def fizzBuzzExercise(ceiling, increment):
             print counter
     print('Done!')
 
+# Execute the examples
 
 ifExample(10, 100)
-ifExample(100,10)
+ifExample(100, 10)
 
-forExample( [1,2,4,8,16,32,64,128,256,512,1024])
-whileExample(100,10)
+forExample([1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024])
+whileExample(100, 10)
 
-fizzBuzzExercise(100,1)
+fizzBuzzExercise(100, 1)
+
