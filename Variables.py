@@ -12,10 +12,10 @@ def dataTypes():
     a = 10.537
     print(a)
     # Boolean
-    a = "False"
+    a = False
     print(a)
     # Interesting discussion point here to test for 'False' and have it output 'True'
-    print(a == 'False')
+    print(a == False)
     # String
     a = "string value"
     print(a)

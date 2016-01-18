@@ -42,7 +42,7 @@ def whileExample(startVal, increment):
 
 
 def fizzBuzzExercise(ceiling, increment):
-    #Classic fizz buzz exercise for conditionals / loops
+    # Classic fizz buzz exercise for conditionals / loops
     print('\nFizzBuzz')
     counter = 0
     while counter < ceiling:
@@ -56,7 +56,6 @@ def fizzBuzzExercise(ceiling, increment):
         else:
             print counter
     print('Done!')
-
 
 
 ifExample(10, 100)
