@@ -87,8 +87,43 @@ def nullSafety(safe):
     print('\n')
 
 
-varAssign()
-dataTypes()
-typeConversion()
-nullSafety(True)
-nullSafety(False)
+#varAssign()
+#dataTypes()
+#typeConversion()
+#nullSafety(True)
+#nullSafety(False)
+
+
+# Creating dictionaries
+adict = {"Alex": 10, "Bob": 20, "Chris": 30}
+bdict = {}
+cdict = dict([('Alex',10),('Bob',20),('Chris',30)])
+ddict = dict(Alex=10, Bob=20, Chris=30)
+
+# Accessing by key
+print adict['Alex']
+# Accessing by iteration
+for key in adict:
+	print(adict[key])
+
+# Updating by key
+adict['Bob'] = 40
+bdict['sum'] = 0
+for key in adict:
+	bdict['sum'] += adict[key]
+
+print(bdict['sum'])
+
+blist = ['Homer', 'Marge', 'Bart', 'Lisa', 'Maggie']
+
+# Test for membership
+first_value = blist[1]
+second_value = blist[2]
+third_value = blist[1]
+
+if first_value is second_value:
+	print ('Found it!')
+elif first_value is third_value :
+	 print (first_value + ' is ' + third_value)
+else:
+	print ('Something went wrong!')
