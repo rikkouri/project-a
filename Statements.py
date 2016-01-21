@@ -153,11 +153,24 @@ def breakTest():
 
 # Compound Statements
 
+def tryExample():
+    try:
+        infile = open('nonexistant.txt','r')
+    except IOError:
+        print('File not found\n')
+    finally:
+        infile = open('./tryexample.txt','r')
+        print(infile.read())
+        print('\n')
+        print('Finally we exit.')
+
+
 # Compound Statement Exercises
 
 
 # Function calls to run the tests / examples
-asserttest()
+#asserttest()
+tryExample()
 
 # print('Pass example about to run')
 # passExample()
