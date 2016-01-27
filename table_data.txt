@@ -1,0 +1,7 @@
+paul,43,Bristol
+dave,35,Gloucester
+keith,28,Reading
+bob,58,London
+mike,23,Bath
+alex,18,Birmingham
+jim,65,Edinburgh
