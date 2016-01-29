@@ -17,3 +17,4 @@ for t in textRange:
     newFile.write(textToWrite[t])
 
 newFile.close()
+
