@@ -127,3 +127,22 @@ elif first_value is third_value :
 	 print (first_value + ' is ' + third_value)
 else:
 	print ('Something went wrong!')
+
+
+def listsExercise():
+    short_words = ( 'an', 'of', 'are', 'the' )
+    long_words = ( 'python', 'part', 'language', 'lists', 'important' )
+    output_list = [ long_words[3], short_words[2], short_words[0], long_words[4], long_words[1], short_words[1], short_words[3], long_words[0], long_words[2]]
+    output = output_list[0].capitalize() + ' '
+    output += output_list[1] + ' '
+    output += output_list[2] + ' '
+    output += output_list[3] + ' '
+    output += output_list[4] + ' '
+    output += output_list[5] + ' '
+    output += output_list[6] + ' '
+    output += output_list[7].capitalize() + ' '
+    output += output_list[8] + '.'
+    print(output)
+
+
+listsExercise()
