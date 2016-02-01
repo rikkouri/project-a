@@ -1,4 +1,4 @@
-from Crypto.Cipher import Blowfish
+from Crypto.Cipher import Blowfish, DES
 
 key = raw_input("Enter a key :\n")
 message = raw_input("Enter a message: \n")
