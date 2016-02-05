@@ -37,8 +37,8 @@ def summer(upper_bound):
 #Same using globals
 # A function to do the calculation  work
 def fibonacci():
-    global results
-    global ceiling
+    global r
+    global c
     # The first time in we need to use the first two values
     if ( len(results) < 3 ):
         nextresult = results[0] + results[1]
@@ -55,7 +55,7 @@ def fibonacci():
         results.append(nextresult)
 
 # Set up our results with the first two values populated
-results = [0, 1]
-ceiling = input('Enter a value to reach : ')
+r = [0, 1]
+c = input('Enter a value to reach : ')
 fibonacci()
-print(results)
+print(r)
