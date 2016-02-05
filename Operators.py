@@ -107,6 +107,18 @@ def calc_exercise():
     pass
 
 
-ops_exercise()
+#ops_exercise()
+
+#Option 1
+result = input('Enter a sum : ')
+print result
+
+#Option 2
+left = raw_input('Enter a value: ')
+operator = raw_input('Enter an operator: ')
+right = raw_input('Enter another value: ')
+sum = str(left) + operator + str(right)
+result = eval( sum )
+print result
 
 
