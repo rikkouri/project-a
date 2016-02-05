@@ -18,3 +18,14 @@ for t in textRange:
 
 newFile.close()
 
+
+# Very simple file viewer
+import glob as glob
+import io
+filename = raw_input('Enter a filename: ')
+matches = glob.glob(filename)
+if matches:
+    file = io.FileIO(matches[0])
+    print(file.read())
+else:
+    print('No matches')
