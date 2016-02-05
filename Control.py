@@ -83,3 +83,11 @@ def fizzBuzzExercise2(ceiling):
 
 #fizzBuzzExercise(100, 1)
 fizzBuzzExercise2(100)
+
+
+left = raw_input('Enter a value: ')
+right = raw_input('Enter another value: ')
+if left == right:
+    print('They match!')
+else:
+    print('Sorry, no match!')
