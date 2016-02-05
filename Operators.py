@@ -121,4 +121,21 @@ sum = str(left) + operator + str(right)
 result = eval( sum )
 print result
 
+#Relationship Operators Exercise
+
+#Option 1
+secret = 42
+value = raw_input('Enter a value: ')
+result = (int(value) >= secret)
+print(value + ' >= ??? is ' + str(result))
+
+#Option 2
+secret = 42
+value = raw_input('Enter a value: ')
+operator = raw_input('Enter an operator: ')
+result = eval( value + operator + str(secret) )
+print(value + operator + ' ??? is ' + str( result ) )
+
+
+
 
