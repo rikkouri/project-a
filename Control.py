@@ -91,3 +91,23 @@ if left == right:
     print('They match!')
 else:
     print('Sorry, no match!')
+
+
+#!/usr/bin/python
+
+#String types
+blist = ['homer', 'marge', 'bart', 'lisa', 'maggie']
+
+# Test for membership
+value_to_find = raw_input ('A value to find').lower()
+if value_to_find in blist:
+	print ('Found it!')
+else:
+	 print ( value_to_find + 'not found')
+
+for simpson in blist:
+    if simpson in [ blist[0], blist[2], blist[3] ]:
+        print(simpson + ' says "D\'oh"')
+    else:
+        print(simpson + ' says "Hmmm"')
+
