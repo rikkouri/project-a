@@ -1,5 +1,6 @@
 from Crypto.Cipher import Blowfish, DES
 
+12345678
 key = raw_input("Enter a key :\n")
 message = raw_input("Enter a message: \n")
 
